@@ -3,6 +3,8 @@ e restituisca un array contenente solo le parole che iniziano con quella lettera
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
+// Dichiara la funzione qui.
+
 function stringLetter(arr, letter) {
   const filteredArr = [];
   for (let i = 0; i < arr.length; i++) {
@@ -16,10 +18,7 @@ function stringLetter(arr, letter) {
   return filteredArr;
 }
 
-console.log(stringLetter(names, "a"));
-
-// Dichiara la funzione qui.
-
 // Invoca la funzione qui e stampa il risultato in console
+console.log(stringLetter(names, "a"));
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
